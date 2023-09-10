@@ -1,10 +1,13 @@
 import { AllRoutes } from './routes/AllRoutes';
 import './App.css';
+import { Header,Footer } from './components/index';
 
 function App() {
   return (
     <div className="App">
-         <AllRoutes/>
+      <Header/>
+    <AllRoutes/>
+    <Footer/>
     </div>
   );
 }
