@@ -4,7 +4,7 @@
 
 main{
     max-width: 1280px;
-    padding: auto;
+    padding: 10px;
     min-height: 90vh;
-    margin: 10px;
+    margin: auto;
 }
