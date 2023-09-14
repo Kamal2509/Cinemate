@@ -1,9 +1,11 @@
 import { Card } from "../components";
 import { useFetch } from "../hooks/useFetch";
+import { useTitle } from "../hooks/useTitle";
 
-export const MovieList = ({ apipath }) => {
+
+export const MovieList = ({ apipath,title}) => {
   const { data: movies } = useFetch(apipath);
-
+  useTitle(title);
   return (
     <main >
       <section className="max-w-7xl mx-auto py-7 ">
